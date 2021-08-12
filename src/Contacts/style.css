@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 20px;
+}
+
+.wrapper_phone {
+    margin: 0px auto;
+    border-radius: 20px;
+    background-color: rgb(207, 207, 207);
+    width: 350px;
+    padding: 20px 30px;
+    align-items: center;
+    align-content: center;
+    font-family: 'Caveat', 'cursive';
+
+}
+
+.wrapper{
+    padding-top: 70px;
+}
+
+.icon img {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.phone img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.phone img:active {
+    transform: scale(.2);
+    transition-duration: .5s;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.contacts_wrapper {
+    max-width: 300px;
+    margin: auto;
+
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.main_info {
+    display: flex;
+    justify-content: first baseline;
+}
+
+.contact {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+input {
+    margin: 25px 50px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    padding: 2px 5px;
+    background: #3f3f3f;
+    outline: none;
+    height: 30px;
+    color: #cccccc;
+    font-size: 22px;
+    font-family: 'Caveat', 'cursive';
+    box-shadow:0 0 15px 0px rgba(51, 74, 95, 0.658);
+
+
+}
+
+input[placeholder]{
+text-align: center;
+}
+
+.contacts{
+    cursor: pointer;
+    color: rgb(20, 45, 49);
+}
+
+.contacts:hover{
+    color: rgb(10, 95, 38);
+}
+
+.link_style{
+font-size: 18px;
+color: black;
+}
+
+.contact_info_router{
+margin: 10px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.phone_number:hover{
+    color: rgba(25, 146, 35, 0.993);
+}

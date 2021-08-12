@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  margin: 10px auto;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+  color:rgba(25, 33, 104, 0.815);
+  font-family: 'WindSong', cursive;
+  color: rgba(0, 15, 116, 0.747);
+  font-size: 30px;
+}
+
+.active{
+  color: rgb(168, 0, 0);
+  border-bottom: 2px solid rgb(168, 0, 0);
+}
+
+
+
+
+a:hover{
+  border-bottom: 2px solid rgba(25, 33, 104, 0.815);
+  transition-timing-function: 5s;
+
+}
