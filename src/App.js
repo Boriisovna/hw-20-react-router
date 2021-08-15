@@ -11,7 +11,7 @@ const HomeComponent = () => {
       <div className='homePage'>
         <img src={smoke} alt="" />
         <p>welcome  ღ </p>
-        <p className="homepage_text">= to my homepage =</p>
+        <p className="homepage_text">to my homepage</p>
       </div>
       </>
   )

@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  
+
 }
 
 .homePage {
@@ -19,17 +19,34 @@
 
 
 .homePage p {
-  margin:100px auto;
-  font-size:180px;
+  margin: 100px auto;
+  font-size: 180px;
   position: absolute;
   font-family: 'WindSong', cursive;
   color: rgba(0, 15, 116, 0.747);
 }
 
-.homePage .homepage_text{
+.homePage .homepage_text {
   margin-top: 320px;
   font-size: 50px;
   position: absolute;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   color: rgb(47, 47, 153);
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+
+}
+
+.homepage_text::after,
+.homepage_text::before {
+  content: '=';
+  font-size: 30px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.homepage_text::after {
+  margin-left: 10px;
 }
