@@ -9,8 +9,12 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.wrapper_post{
+.wrapper_post:not(:last-child){
     padding-top: 70px;
+}
+
+.wrapper_post:last-child{
+    padding: 30px 10px;
 }
 
 .post {
